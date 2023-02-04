@@ -1,0 +1,69 @@
+.clicked {
+  border-color: #eaeef5;
+  cursor: pointer;
+  text-align: left;
+}
+
+.clicked:hover {
+  border-color: #664de5;
+}
+
+.clicked:active {
+  border-color: #664de5;
+}
+
+.one-top-three {
+  position: relative;
+  width: 756px;
+  height: 756px;
+  background-color: white;
+  border-radius: 10px;
+  padding: 15px;
+  left: 24px;
+  top: 49px;
+}
+
+.text-three > h2 {
+  font-weight: 700;
+  font-size: 16px;
+  font-family: "Eudoxus Sans";
+  display: inline;
+}
+
+.text-three {
+  top: 95px;
+  width: 709px;
+  height: 35px;
+  border-bottom: #eaeaea solid;
+}
+
+.text-three > span {
+  font-weight: 400;
+  font-size: 14px;
+  color: #c0c0c0;
+}
+
+.measure-three {
+  position: relative;
+  top: 70px;
+  left: 844px;
+  width: 210px;
+  height: 45px;
+  border-radius: 10px;
+}
+
+@media screen and (max-width: 1228px) {
+  .selectionDiv {
+    flex-wrap: wrap;
+  }
+
+  .clicked {
+    min-width: 200px;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .submitButton {
+    min-width: 100%;
+  }
+}

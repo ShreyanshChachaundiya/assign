@@ -1,0 +1,95 @@
+.s-up-cover {
+  padding-top: 25px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.s-up-cover > span {
+  text-decoration: underline;
+  font-family: "Eudoxus sans";
+  font-weight: 500;
+  font-size: 14px;
+}
+
+.timeline {
+  position: relative;
+  left: 35px;
+}
+
+.timeline > span {
+  color: #606060;
+  font-weight: 500px;
+  font-size: 12px;
+  font-family: "Eudoxus sans";
+}
+
+.datex {
+  display: flex;
+  justify-content: space-between;
+  position: absolute;
+  width: 660px;
+  height: 42px;
+  margin-top: 15px;
+}
+.currency {
+  position: relative;
+  top: 100px;
+  right: -600px;
+  width: 70px;
+  height: 39px;
+}
+
+.menuitem > img {
+  transform: scale(0.7);
+  display: inline;
+}
+.menuitem {
+  font-size: 15px;
+  font-weight: 400;
+  display: flex;
+}
+
+.image {
+  position: relative;
+  top: 135px;
+  right: -570px;
+}
+
+.slider {
+  margin-top: 115px;
+}
+
+.text5 {
+  position: relative;
+  top: 109px;
+  font-family: "Eudoxus Sans";
+  font-weight: 500;
+  font-size: 12;
+  color: #606060;
+  width: 390px;
+  margin-bottom: 30px;
+}
+
+.curr {
+  position: relative;
+  margin-top: 3px;
+  width: 640px;
+  border-radius: 10px;
+  border: #e9e9e9 solid;
+  height: 46px;
+}
+.text6 {
+  margin: 13px 0;
+  font-family: "Eudoxus Sans";
+  font-weight: 300;
+  font-size: 4;
+  color: #606060;
+}
+.lab-loc {
+  margin-top: 20px;
+  font-family: "Eudoxus Sans";
+  font-weight: 300;
+  font-size: 4;
+  color: #606060;
+}

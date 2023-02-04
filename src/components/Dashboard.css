@@ -1,0 +1,67 @@
+.dashboard {
+  background: #001738;
+  width: 82px;
+  height: 1200px;
+  position: relative;
+}
+
+.dashboard > ul > li {
+  list-style: none;
+}
+
+.all-dash {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  left: 0px;
+  margin: 0;
+  padding: 0;
+  top: 75px;
+  height: 250px;
+  justify-content: space-between;
+}
+
+.all-dash > li {
+  display: block;
+  display: flex;
+  flex-direction: column;
+  color: #ffff;
+  align-items: center;
+  font-size: 10px;
+  font-weight: 400;
+}
+
+.all-dash > li > div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.logo {
+  position: relative;
+  top: 25px;
+  padding-left: 20px;
+  transform: scale(0.85);
+}
+
+.nav {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 10px;
+  font-weight: 400;
+  height: 51px;
+}
+
+.dash-button {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.active {
+  border-left: #1977f3 solid;
+  background-color: rgba(25, 119, 243, 0.1);
+}

@@ -1,0 +1,43 @@
+.header {
+  width: 1180px;
+  height: 60px;
+  background-color: white;
+  top: -8px;
+  position: absolute;
+}
+
+.end {
+  position: relative;
+  display: flex;
+  width: 650px;
+  left: 478px;
+}
+
+.end > ul {
+  position: relative;
+  display: flex;
+  justify-content: space-around;
+  left: 76px;
+}
+
+.end > ul > li {
+  display: flex;
+  list-style: none;
+  align-items: center;
+  justify-content: center;
+  margin-left: 15px;
+}
+
+.end > ul {
+  display: flex;
+  justify-content: space-between;
+}
+
+.header {
+  display: flex;
+}
+
+.end > ul > li:nth-child(2) {
+  background-color: #f29a2e1a;
+  color: #ff8c00;
+}

@@ -1,0 +1,8 @@
+.App {
+  display: flex;
+  position: absolute;
+}
+.vertical {
+  display: flex;
+  flex-direction: column;
+}
